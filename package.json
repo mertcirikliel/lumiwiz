@@ -1,0 +1,34 @@
+{
+  "name": "lumiwiz",
+  "productName": "LumiWiz",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A compact macOS controller for WiZ smart lights.",
+  "engines": {
+    "node": "24.x"
+  },
+  "main": ".vite/build/main.js",
+  "scripts": {
+    "dev": "electron-forge start",
+    "start": "electron-forge start",
+    "typecheck": "tsc --noEmit",
+    "package": "npm run typecheck && electron-forge package",
+    "make": "npm run typecheck && electron-forge make",
+    "build": "npm run package"
+  },
+  "dependencies": {
+    "@geajs/core": "1.4.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "7.11.2",
+    "@electron-forge/maker-zip": "7.11.2",
+    "@electron-forge/plugin-fuses": "7.11.2",
+    "@electron-forge/plugin-vite": "7.11.2",
+    "@electron-forge/shared-types": "7.11.2",
+    "@electron/fuses": "1.8.0",
+    "@geajs/vite-plugin": "1.4.1",
+    "electron": "44.4.0",
+    "typescript": "6.0.3",
+    "vite": "8.3.0"
+  }
+}
