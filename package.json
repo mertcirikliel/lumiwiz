@@ -27,7 +27,9 @@
     "@electron-forge/shared-types": "7.11.2",
     "@electron/fuses": "1.8.0",
     "@geajs/vite-plugin": "1.4.1",
+    "@tailwindcss/vite": "4.3.3",
     "electron": "44.4.0",
+    "tailwindcss": "4.3.3",
     "typescript": "6.0.3",
     "vite": "8.3.0"
   }
