@@ -6,7 +6,7 @@ import counterStore from './stores/counter-store'
 export default class App extends Component {
   template() {
     return (
-      <main class="app">
+      <main class="app antialiased">
         <img class="logo" src="./logo.png" alt="Gea" />
         <h1>Hello from Gea.</h1>
         <p class="copy">A tiny starter with a shared store, one class component, and one function component.</p>
